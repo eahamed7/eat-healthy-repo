@@ -1,0 +1,41 @@
+body{
+    margin:0%
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-weight: 800;
+}
+h1 span{
+    color: #FBA24F;
+}
+h3{
+    font-weight: 200;
+}
+section {
+    display: flex;
+    padding-left: 10px;
+    
+}
+
+.button{
+    background: linear-gradient(45deg,#FBA24F,#e77f1d, tomato );
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 20px 40px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 100%;
+}
+.middle{
+    padding-top: 25%;
+    padding-bottom: 25%;
+    padding-left: 70px;
+
+}
