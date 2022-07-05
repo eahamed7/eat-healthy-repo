@@ -36,7 +36,7 @@ section {
     display: flex;
     padding-left: 10px;
     height: 500px;
-    padding-bottom: 100px;
+    padding-bottom: 0px;
 
 }
 
@@ -56,9 +56,9 @@ section {
 }
 
 .half-width img {
+    padding-top: 30px;
     width: 90%;
     height:auto;
-    object-fit: cover;
 }
 
 .middle {
@@ -76,3 +76,11 @@ section {
     background-size: cover;
 }
 
+.about-me-image{
+    width: 70%;
+}
+
+.center-screen{
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
