@@ -1,6 +1,7 @@
 body {
     margin: 0%;
     font-family: 'Montserrat', sans-serif;
+    background-color: #f9f9f9;
 }
 
 h1 {
@@ -23,7 +24,7 @@ h2 {
 
 p {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 h3 {
@@ -57,8 +58,14 @@ section {
 
 .half-width img {
     padding-top: 30px;
-    width: 90%;
-    height:auto;
+    width: 290px;
+    height: auto;
+}
+
+.half-width-hero img {
+    padding-top: 30px;
+    width: 390px;
+    height: auto;
 }
 
 .middle {
@@ -76,11 +83,116 @@ section {
     background-size: cover;
 }
 
-.about-me-image{
-    width: 70%;
+.about-me-image {
+    width: 330px;
+    padding-left: 30%;
+    padding-right: 5%;
 }
 
-.center-screen{
+.center-screen {
     padding-top: 30px;
     padding-bottom: 40px;
+    padding-right: 20%;
+}
+
+.centered {
+    padding-top: 20px;
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: center;
+}
+
+.recipie {
+    display: list-item
+}
+
+.my-recipies {
+    display: flex;
+    padding: 50px;
+    margin: 20px;
+}
+
+.imagebox {
+    align-items: center;
+    
+    background-color: white;
+    border-radius: 30px;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 5px 7px 40px rgba(168, 166, 166, 0.694);
+
+}
+
+.recipie-image img {
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 250px;
+    align-items: center;
+    border-radius: 12%;
+    padding-top: 10px;
+    height: 70%;
+}
+
+.my-recipies h4 {
+    margin: auto;
+    width: 400px;
+    padding-top: 35px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 30px;
+}
+
+.my-recipies p {
+    margin: auto;
+    width: 400px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    margin: 0px 85px;
+    padding: 10px;
+    box-shadow: 5px 7px 40px rgba(168, 166, 166, 0.694);
+}
+
+.social-element {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: auto;
+    align-items: space-evenly;
+
+}
+
+.social-element h4 {
+    font-size: 40px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.social-element h5 {
+    font-size: 15px;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-weight: 300;
+}
+
+
+.orange-text {
+    font-family: 'Montserrat', sans-serif;
+    color: #FBA24F;
+    font-weight: 500;
+}
+
+.orange-gray {
+    font-family: 'Montserrat', sans-serif;
+    color: #575757;
+    font-weight: 500;
 }
